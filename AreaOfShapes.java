@@ -1,5 +1,5 @@
-
-public class AreaofShapes {
+import java.util.Scanner;
+public class AreaOfShapes{
 	public static void main(String[] args) {
 		Shape shape=new Shape();
 		Scanner sc=new Scanner(System.in);
@@ -16,12 +16,9 @@ public class AreaofShapes {
 		Shape.area(height,base);
 		Shape.area(length,breadth);
 		Shape.area(radius);
-		
 	}
-
 }
 class Shape{
-	
 	public static void area(int length,int breadth) {
 		System.out.println("Area of Rectangle with length="+length+" and breadth="+breadth+" is="+(length*breadth));
 	}
